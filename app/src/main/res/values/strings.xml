@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="version_info">Daily Register v1.0.0</string>
+
+    <!--    messages -->
+    <string name="welcome_h6">Welcome</string>
+    <string name="sign_in_message_overline">Log in to continue</string>
+    <string name="invalid_credentials">Invalid Email/Password.</string>
+    <string name="user_dont_exist">User doesn\'t exist. \nPlease register your account first.</string>
+    <string name="reset_password_snack_bar_message">Email has been sent.</string>
+    <string name="invalid_email">Email you\'ve used is invalid.</string>
+
+    <!--    Button text-->
+    <string name="login_btn">LOGIN</string>
+    <string name="signup_button">SIGN UP</string>
+    <string name="back_button">Back</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="google_login_button">Google Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="next">next</string>
+    <string name="request_order_button">Request Order</string>
+
+    <!--    Ui text-->
+    <string name="choose_account_text">choose account type:</string>
+    <string name="name_label">Your Name</string>
+    <string name="user_name_label">User name</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="mobile_label">Mobile</string>
+    <string name="building_label">Building</string>
+    <string name="area_label">Area</string>
+    <string name="city_label">City</string>
+    <string name="street_label">Street</string>
+    <string name="zip_label">Zip Code</string>
+    <string name="state_label">State</string>
+    <string name="register">Register</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="shop_type">Shop Type</string>
+    <string name="no_items_cart">No items Selected.</string>
+    <string name="loading_order_items">Fetching items from Database.</string>
+
+    <string name="dont_have_account">Dont have account?</string>
+    <string name="already_have_account">Alread have an account?</string>
+    <string name="customer_type_account">Customer</string>
+    <string name="merchant_type_account">Merchant</string>
+    <string name="or_separator">OR</string>
+    <string name="reset_password_text">Reset password link will be send to email mentioned below.</string>
+    <string name="search_title">Search name</string>
+    <string name="products">Products</string>
+    <string name="shops">Shops</string>
+    <string name="shop">Shop</string>
+    <string name="mobile">Mobile</string>
+    <string name="address">Address</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="sign_up">Sign up</string>
+    <string name="personal_details">Personal details</string>
+    <string name="address_details">Address details</string>
+    <string name="product_details">Product details</string>
+    <string name="shop_details">Shop details</string>
+    <string name="products_layout_header">Select products you sell.</string>
+    <string name="selected_item_heading">Selected items:</string>
+    <string name="choose_items_heading">Choose items from below:</string>
+    <string name="quantity">Quantity:</string>
+
+    <!-- useless delete this at build time-->
+    <string name="test_email">thisistest@email.com</string>
+    <string name="test_name">John wick</string>
+    <string name="test_mobile">+91 7845784578</string>
+    <string name="test_address">Building: Hussani park \nStreet: karodiya road \nCity: Vadodara \nState: Gujarat \nZIP: 786512</string>
+    <string name="test_shop_name">Gada general store</string>
+    <string name="test_order_item_name">Milk</string>
+    <string name="test_order_quantity">1</string>
+
+
+</resources>

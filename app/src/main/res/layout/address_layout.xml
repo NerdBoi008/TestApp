@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/shop_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/shop_header"
+                style="@style/TextAppearance.MaterialComponents.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/shop" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/shop_name_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.TestApp.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/shop_name"
+                app:startIconDrawable="@drawable/store">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/shop_name_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/shop_type_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.TestApp.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/shop_type"
+                app:startIconDrawable="@drawable/store">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/shop_type_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/address_header"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/address" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/building_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.TestApp.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/building_label"
+            app:startIconDrawable="@drawable/apartment">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/building_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/area_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.TestApp.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/area_label"
+            app:startIconDrawable="@drawable/pin_drop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/area_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/street_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.TestApp.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/street_label"
+            app:startIconDrawable="@drawable/pin_drop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/street_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/city_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.TestApp.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/city_label"
+            app:startIconDrawable="@drawable/map">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/city_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/state_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.TestApp.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/state_label"
+            app:startIconDrawable="@drawable/map">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/state_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/zip_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.TestApp.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/zip_label"
+            app:startIconDrawable="@drawable/pin_drop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/zip_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/call_24px"
+            android:title="@string/dont_have_account"
+            android:checked="true" />
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/error_24px"
+            android:title="@string/welcome_h6" />
+        <item
+            android:id="@+id/item3"
+            android:icon="@drawable/mail_24px"
+            android:title="@string/mobile_label" />
+    </group>
+</menu>
