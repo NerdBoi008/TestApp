@@ -3,17 +3,11 @@
 
 This is simple Test App about provisional items Delivery Service.
 
+## App Screen Shots
 
-### Screenshots
-
-#### Some Registration Pages Screenshots
-
-![Login Page](./Screen%20shots/Screenshot%202023-12-07%20113052.png "Sign Up page")
-![Login Page](./Screen%20shots/Screenshot%202023-12-07%202.png "Sign Up page")
-
-#### Home Page Screenshot
-
-![Login Page](./Screen%20shots/4.png "Sign Up page")
+[![JIXpnjt.png](https://iili.io/JIXpnjt.png)](https://freeimage.host/)
+[![JIXpIGs.png](https://iili.io/JIXpIGs.png)](https://freeimage.host/)
+[![JIXpznn.md.png](https://iili.io/JIXpznn.md.png)](https://freeimage.host/i/JIXpznn)
 
 ## Authors
 
